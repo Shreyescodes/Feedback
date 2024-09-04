@@ -41,4 +41,5 @@ Contributions to this project are welcome. Please submit a pull request with you
 
 ## License
 
-This project is licensed under [MIT] license
+[MIT License](LICENSE)
+
