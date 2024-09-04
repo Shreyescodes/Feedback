@@ -32,10 +32,8 @@ The purpose of this project is to collect feedback from trainees and provide ins
 
 ## Technical Details
 
-* The form is built using [insert technology stack, e.g. HTML, CSS, JavaScript]
-* The dashboard is built using [insert technology stack, e.g. React, Node.js, MongoDB]
-* The form data is stored in [insert database or storage solution]
-
+* The form is built using  HTML, CSS
+* The dashboard is built using HTML, CSS, JavaScript
 
 ## Contributing
 
@@ -43,4 +41,4 @@ Contributions to this project are welcome. Please submit a pull request with you
 
 ## License
 
-This project is licensed under MIT License
+This project is licensed under [MIT] license
