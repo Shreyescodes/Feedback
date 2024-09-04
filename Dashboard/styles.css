@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* .blocks-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+} */
+
+.blocks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+/* #chartsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+#chartsBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chartsBlock canvas {
+    width: 80% !important;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1;
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#submissionList {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.submission-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.submission-item:last-child {
+    border-bottom: none;
+}
+
+.submission-item p {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+.chart-container {
+    width: 48%; /* Adjust width to ensure both charts fit side by side */
+    display: flex;
+    justify-content: center;
+}
+
+#statusChart {
+    width: 100% !important; /* Ensure the bar chart takes the full width */
+    height: auto;
+}
+
+#listBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container canvas#submissionChart {
+    width: 60% !important; /* Reduce the width to make the pie chart smaller */
+    height: auto;
+}
+
+.submission-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.submission-table th, .submission-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.submission-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.submission-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.submission-table tr:hover {
+    background-color: #ddd;
+}
