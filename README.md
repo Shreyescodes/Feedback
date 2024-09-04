@@ -43,4 +43,4 @@ Contributions to this project are welcome. Please submit a pull request with you
 
 ## License
 
-This project is licensed under [insert license, e.g. MIT License].
+This project is licensed under MIT
